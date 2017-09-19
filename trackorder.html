@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-<title>Order List</title>
+<title>Track order</title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -264,19 +264,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</ul>
 				</li>
 
-				<li class="second w3l_search">
-				 
-						<form action="#" method="post">
-							<input type="search" name="search" placeholder="Search here..." required="">
-							<button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-						</form>
-					
-				</li>
-				<li class="second full-screen">
+				<div class="second full-screen" style="float:right;">
 					<section class="full-top">
 						<button id="toggle"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>	
 					</section>
-				</li>
+				</div>
 
 			</ul>
 			<!-- //nav -->
@@ -294,10 +286,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="w3l_agileits_breadcrumbs_inner">
 								<ul>
 									<center>
-									<li><a href="main-page.html">ORDER LIST</a></li>
+									<li><a href="main-page.html">Your Order</a></li>
 									</center>
 								</ul>
-							</div>
+				
+	
+				<li style="list-style-type:none;" class="second w3l_search">
+						<form action="#" method="post">
+							<input type="search" name="search" placeholder="JD123456MY" required="">
+							<button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					
+				</li>
+
+						</div>
 						</div>
 					<!-- //breadcrumbs -->
 <div class="order" style="background-color:white;margin:auto;overflow:auto;">
@@ -322,44 +324,29 @@ th, td {
 	
 <table>
 	<tr>
-		<th>Order ID</th>
+		
 		<th>Order No</th>
 		<th>Purchased ON</th>
 		<th>Bill to Name</th>
-		<th>Ship to Address</th>
-		<th>Phone_num</th>
-		<th>Subtotal</th>
 		<th>Status</th>
-		<th>Action</th>
+		
 	</tr>
 	
 	<tr>
-		<td>1.</td>
+		
 		<td>JD123456MY</td>
 		<td>2017.06.30 06:30:00</td>
 		<td>Nancy</td>
-		<td>NO24. Jalan Metro Prima, Taman Bootstrap, 57000 Bukit Jalil, Kuala Lumpur</td>
-		<td>012 - 789 4566</td>
-		<td>MYR 456</td>
 		<td>Complete</td>
-		<td>
-			<form>
-				<input type = submit name = View value = View>
-				<input type = submit name = Ship value = Ship>
-			</form>
-		</td>
+		
+			
+		
 		
 	</tr>
 </table>
 
 
-
-
-		<form >
-				<input style = "float:right; margin-top:10px;" type = submit name = Print value = print>
-		</form>
-
-
+	
 
 </div>
 
