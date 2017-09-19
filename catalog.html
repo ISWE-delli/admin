@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-<title>Track order</title>
+<title>Esteem  An Admin Panel Category Flat Bootstrap Responsive Website Template | Tables  :: w3layouts</title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,6 +17,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //custom-theme -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/table-style.css" />
+<link rel="stylesheet" type="text/css" href="css/basictable.css" />
 <link href="css/component.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style_grid.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -28,18 +30,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <!-- banner -->
 <div class="wthree_agile_admin_info">
+		  <!-- /w3_agileits_top_nav-->
+		  <!-- /nav-->
 		  <div class="w3_agileits_top_nav">
 			<ul id="gn-menu" class="gn-menu-main">
-			  		 <!-- /nav_agile_w3l -->
+				  		 <!-- /nav_agile_w3l -->
 				<li class="gn-trigger">
 					<a class="gn-icon gn-icon-menu"><i class="fa fa-bars" aria-hidden="true"></i><span>Menu</span></a>
 					<nav class="gn-menu-wrapper">
 						<div class="gn-scroller scrollbar1">
 							<ul class="gn-menu agile_menu_drop">
 								<li><a href="main-page.html"> <i class="fa fa-tachometer"></i> Dashboard</a></li>
-						
+			
+							
 								<li>
-									<a href="trackSorder.html"> <i class="fa fa-search-plus" aria-hidden="true"></i>Track Order</a> 
+									<a href="#"> <i class="fa fa-search-plus" aria-hidden="true"></i>Track Order</a> 
 	
 								</li>
 								<li><a href="table.html"> <i class="fa fa-table" aria-hidden="true">Products</i></a></li>
@@ -53,15 +58,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</li>
 								
 								<li><a href="charts.html"> <i class="fa fa-line-chart" aria-hidden="true"></i> Sales Report</a></li>
+	
 						
 							</ul>
 						</div><!-- /gn-scroller -->
 					</nav>
 				</li>
 				<!-- //nav_agile_w3l -->
-
-                <li class="second logo"><h1><a href="main-page.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Fidelli Deli</a></h1></li>
-
+                <li class="second logo"><h1><a href="main-page.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Fidelli Delli</a></h1></li>
 					<li class="second admin-pic">
 				       <ul class="top_dp_agile">
 									<li class="dropdown profile_details_drop">
@@ -238,11 +242,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</ul>
 				</li>
 
-				<div class="second full-screen" style="float:right;">
+				<li class="second w3l_search">
+				 
+						<form action="#" method="post">
+							<input type="search" name="search" placeholder="Search here..." required="">
+							<button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					
+				</li>
+				<li class="second full-screen">
 					<section class="full-top">
 						<button id="toggle"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>	
 					</section>
-				</div>
+				</li>
 
 			</ul>
 			<!-- //nav -->
@@ -259,73 +271,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="w3l_agileits_breadcrumbs">
 							<div class="w3l_agileits_breadcrumbs_inner">
 								<ul>
-									<center>
-									<li><a href="main-page.html">Your Order</a></li>
-									</center>
+									<li><a href="main-page.html">Home</a><span>«</span></li>
+									
+									<li>Catalog</li>
 								</ul>
-				
-	
-				<li style="list-style-type:none;" class="second w3l_search">
-						<form action="#" method="post">
-							<input type="search" name="search" placeholder="JD123456MY" required="">
-							<button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-						</form>
-					
-				</li>
-
-						</div>
+							</div>
 						</div>
 					<!-- //breadcrumbs -->
-<div class="order" style="background-color:white;margin:auto;overflow:auto;">
 
-<style> 
-table, td, th {    
-    border: 1px solid #ddd;
-    text-align: left;
-}
+					<div class="inner_content_w3_agile_info two_in">
+					  <h2 class="w3_inner_tittle">Catalog</h2>
+									<!-- tables -->
+									
+									<div class="agile-tables">
+										<div class="w3l-table-info agile_info_shadow">
+										
+											<table id="table">
+											<thead>
+											  <tr>
+											
+												<th>Event Name</th>
+												
+											  </tr>
+											</thead>
+											<tbody>
+											  <tr>
+												 
+												<td><a href="#">Summer Fair</a></td>
+												
+											  </tr>
+											  <tr>
+												 
+												<td><a href="#">Chinese New Year Festival</a></td>
+												
+											  </tr>
+											</tbody>
+										  </table>
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    padding: 15px;
-}
-</style>
-
-
-	
-<table>
-	<tr>
-		
-		<th>Order No</th>
-		<th>Purchased ON</th>
-		<th>Bill to Name</th>
-		<th>Status</th>
-		
-	</tr>
-	
-	<tr>
-		
-		<td>JD123456MY</td>
-		<td>2017.06.30 06:30:00</td>
-		<td>Nancy</td>
-		<td>Complete</td>
-		
-			
-		
-		
-	</tr>
-</table>
-
-
-	
-
-</div>
-
+							
+								
+						</div>
+							<!-- //tables -->
 					
-							<!-- //buttons_w3ls_agile -->
 							<!-- /social_media-->
 						  <div class="social_media_w3ls">
 						 
@@ -431,8 +418,6 @@ th, td {
 					<!-- //inner_content_w3_agile_info-->
 				</div>
 		<!-- //inner_content-->
-	</div>
-<!-- banner -->
 <!--copy rights start here-->
 <div class="copyrights">
 	 <p>© 2017 Esteem. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
@@ -448,7 +433,36 @@ th, td {
 		  <script>
 			new gnMenu( document.getElementById( 'gn-menu' ) );
 		 </script>
+<!-- tables -->
 
+<script type="text/javascript" src="js/jquery.basictable.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+      $('#table').basictable();
+
+      $('#table-breakpoint').basictable({
+        breakpoint: 768
+      });
+
+      $('#table-swap-axis').basictable({
+        swapAxis: true
+      });
+
+      $('#table-force-off').basictable({
+        forceResponsive: false
+      });
+
+      $('#table-no-resize').basictable({
+        noResize: true
+      });
+
+      $('#table-two-axis').basictable();
+
+      $('#table-max-height').basictable({
+        tableWrapper: true
+      });
+    });
+</script>
 <!-- //js -->
 <script src="js/screenfull.js"></script>
 		<script>
